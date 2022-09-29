@@ -1,0 +1,32 @@
+.About{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 18vh;
+}
+
+.img-container{
+    height: 400px;
+    width: 300px;
+    // outline: red 2px solid;
+    
+    overflow: hidden;
+    border-radius: 10px;
+    // outline: rgb(255, 255, 255) 2px solid;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.text-container{
+    width: 500px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    align-self: flex-start;
+}
