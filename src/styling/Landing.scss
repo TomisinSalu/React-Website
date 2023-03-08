@@ -21,6 +21,8 @@ $secondary-color: rgb(255, 187, 0);
     font-size: 3rem;
     place-items: center;
     position: relative;
+    z-index: -1;
+
 
     &::after{
         @include fadeOut();
@@ -29,7 +31,7 @@ $secondary-color: rgb(255, 187, 0);
             90deg, rgba(0,0,0,0) 0%,
             rgba(0,0,0,0.7) 50%,
             rgba(0,0,0,1) 100%);
-        
+
 
     }
     &::before{
@@ -56,6 +58,7 @@ a{
 
 
 .title-container{
+
     // @include outline;
     position: absolute;
     display: flex;
@@ -66,7 +69,6 @@ a{
     height: fit-content;
     align-items: center;
     // padding-bottom: 4rem;
-    // outline: 1px solid red;
     margin-top: 35vh;
     h1{
         // color: transparent;
@@ -82,6 +84,7 @@ a{
 }
 
 .reel{
+
     // @include outline;
     position: relative;
     display: inline-block;
@@ -108,7 +111,7 @@ a{
         // opacity: 80%;
         filter: brightness(0.7) grayscale(0) blur(0.3px);
         height: 60vmin;
-        border-radius: 10px;
+        border-radius: 0px;
         
     &:hover{
         filter: brightness(1) grayscale(0) blur(0px);

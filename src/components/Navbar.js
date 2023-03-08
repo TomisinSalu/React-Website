@@ -11,8 +11,8 @@ export function Navbar() {
             <li> <Link to="/">HOME</Link></li>
             <li> <Link to="/about">ABOUT</Link></li>
             <li> <Link to="/"><img src={logo} alt="" class="logo"/></Link></li>
-            <li> <Link to="/">POSTERS</Link></li>
-            <li> <Link to="/">COLLAB</Link></li>
+            <li> <Link to="/portfolio">WORK</Link></li>
+            <li> <Link to="/contact">COLLAB</Link></li>
         </ul>
     </div>
   )
